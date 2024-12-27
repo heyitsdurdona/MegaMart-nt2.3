@@ -256,6 +256,163 @@ ul, li {
     background-color: #008ECC;
     color: white;
 }
-
 /* -------------------------HEADER BOT END---------------- */
 
+/* -------------------------HERO START---------------- */
+.site-hero{
+    margin-bottom: 120px;
+}
+
+.site-hero__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 38px 0;
+
+    background-color: #212844;
+    border-radius: 16px;
+}
+
+
+
+.site-hero__card-subtitle{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.site-hero__card-title{
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 63px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+
+.site-hero__dot-img{
+    margin-top: 55px;
+    width: 114px;
+}
+/* -------------------------HERO END---------------- */
+
+/* -------------------------MAIN START---------------- */
+
+/* -------------------------SMARTPHONES SECTION START------------- */
+
+.main__smart-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c4c2c2;
+}
+
+.main__smart-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+    color: #666666;
+    /* padding-bottom: 20px;
+    border-bottom: 3px solid #008ECC; */
+
+}
+
+.main__smart-title span{
+    color: #008ECC;
+}
+
+.main__smart-view{
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #222222;
+
+    display: flex;
+    align-items: center;
+}
+
+.main__smart-view::after{
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/view1.svg);
+    background-size: cover;
+    margin-left: 6px;;
+}
+
+.main__smart-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.main__smart-item{
+    border-radius: 16px;
+    border: 1px solid #EDEDED;
+}
+
+.main__smart-item-img{
+    padding: 15px 72px;
+    background-color: #EDEDED;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.smart-item__info{
+    padding: 12px 0;
+    padding-left: 12px;
+    
+}
+
+.actual-price{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EDEDED;
+
+}
+
+.smart-item__title{
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.smart-item__price{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #222;
+}
+
+.smart-item__dis-price{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 18px;
+
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.dicount-price{
+    color: #249B3E;
+    font-size: 18px;
+}
+
+
+.main__smart-item-img{
+    width: 227px;
+    height: 188px;
+}
+/* -------------------------SMARTPHONES SECTION END------------- */
+
+/* -------------------------MAIN END---------------- */
