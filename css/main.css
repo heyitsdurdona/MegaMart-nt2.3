@@ -28,6 +28,10 @@ ul, li {
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* -------------------------HEADER TOP START-------------- */
 .site-header__top{
     width: 100%;
@@ -537,3 +541,91 @@ ul, li {
 /* ------------------------DAILY ESSENTIALS END-------- */
 
 /* -------------------------MAIN END---------------- */
+
+
+/* -------------------------FOOTER START---------------- */
+.site-footer{
+    background-color: #008ECC;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+    /* background-image: url('../images/footer4.png');
+    background-position: top left;
+    background-repeat: no-repeat; */
+}
+
+.site-footer__wrapper{
+    display: flex;
+    gap: 90px;
+}
+
+/* .site-address{
+    display: flex;
+    flex-direction: column;
+} */
+
+.footer__logo{
+    margin-bottom: 34px;
+}
+
+.contact{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+
+    margin-bottom: 20px;
+}
+
+.whats-app{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.whats-app__title{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.whats-app__number{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer__img-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer__categories{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__categories-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #fff;
+}
+
+.footer__categories-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__categories-item{
+    color: #fff;
+    list-style: disc;
+}
+
+.footer__categories-link{
+    color: #fff;
+}
+
+/* -------------------------FOOTER END---------------- */
